@@ -1,5 +1,6 @@
 package org.example.Pojo;
 
+import javax.xml.xpath.XPath;
 import java.util.Objects;
 
 public class Archivo {
@@ -47,7 +48,11 @@ public class Archivo {
         if (newPath == path) {
             System.out.println("no hay cambios");
         } else  {
-            System.out.println("se ");
+            path = newPath;
+            System.out.println("se ha movido el fichero " + newPath);
         }
+
+
+
     }
 }
