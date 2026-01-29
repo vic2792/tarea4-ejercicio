@@ -42,7 +42,7 @@ public class Program<T extends Archivo> {
 
     public void execute(String outputPath) {
         System.out.println("este el programa" + name);
-        for (var file:files) {
+        for (T file:files) {
             file.open();
             file.move(outputPath);
         }

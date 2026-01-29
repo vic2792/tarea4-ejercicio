@@ -6,6 +6,13 @@ import org.w3c.dom.Text;
 
 import java.io.IOException;
 
-public class ProgramReader implements Program<TextFile> {
+public class ProgramReader implements Reader<Program<Texto>> {
+
+
+    @Override
+    public Program<Texto> read() {
+
+        return null;
+    }
 
 }
